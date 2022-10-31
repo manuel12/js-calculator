@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <div id="calculator" className="container">
+      <div id="calculator" className="container container-styles">
         <div className="row">
           <div className="display-container">
             <div className="formula-display">{displayFormula}</div>
