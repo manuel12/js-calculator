@@ -8,9 +8,11 @@ import {
   clearButtonClickHandler,
 } from "./calculatorUtils.js";
 
+import "./custom-colors.css";
+import "./custom-styles.css";
 import "./App.css";
 
-function App() {
+const App = () => {
   const [displayFormula, setDisplayFormula] = useState("");
   const [displayOutput, setDisplayOutput] = useState("0");
 
@@ -22,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <div id="calculator" className="container container-styles">
+      <div id="calculator" className="custom-container">
         <div className="row">
           <div className="display-container">
             <div className="formula-display">{displayFormula}</div>
