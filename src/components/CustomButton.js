@@ -2,7 +2,7 @@ const CustomButton = (props) => {
   return (
     <div
       id={props.id}
-      className={`col-md ${props.type}-btn button-styles`}
+      className={`col-md button calculator-btn ${props.type}-btn `}
       onClick={() => {
         props.mainFunc(props);
       }}
